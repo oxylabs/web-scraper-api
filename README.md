@@ -242,9 +242,9 @@ If your task requires real browser interaction (multi-step clicks, form fills, l
 Web Scraper API can return:
 
 - **Raw HTML** – the default when `parse` is not set.
-- **Structured JSON** – when `"parse": true` is used with a [dedicated parser](https://developers.oxylabs.io/products/web-scraper-api/features/dedicated-parsers) or with [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser).
+- **Structured JSON** – when `"parse": true` is used with a [dedicated parser](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/dedicated-parsers) or with [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser).
 - **Rendered HTML** – set `"render": "html"` for JavaScript-rendered pages.
-- **Screenshots** – set `"render": "png"` to receive a Base64-encoded screenshot. For image downloading workflows, see the [Download Images](https://developers.oxylabs.io/products/web-scraper-api/features/download-images) documentation.
+- **Screenshots** – set `"render": "png"` to receive a Base64-encoded screenshot. For image downloading workflows, see the [Download Images](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/download-images) documentation.
 - **Markdown** – set `"markdown": true` in your request payload. By default, this parameter is set to `false`. See the [Markdown Output](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/markdown-output) documentation for more details.
 
 Results can be delivered:
