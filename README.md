@@ -50,7 +50,7 @@ The built-in proxy rotator uses Oxylabs' ethically sourced proxy network, and IP
 
 In addition to a `universal` source that works with any public website, Web Scraper API ships with dedicated sources tuned for popular targets. These return ready-to-use structured JSON without you having to write or maintain parsing logic.
 
-Dedicated sources include search engines (Google Search, Google Ads, Google Trends, Google Lens, Bing), AI platforms (ChatGPT, Perplexity, Google AI Mode), and major e-commerce marketplaces (Amazon, Walmart, eBay, Etsy, Best Buy, Target, Costco, AliExpress, Alibaba, Lazada, Flipkart, MercadoLibre, and many more). See the full list under our [Supported Targets](https://developers.oxylabs.io/api-targets).
+Dedicated sources include search engines (Google Search, Google Ads, Google Trends, Google Lens, Google Scholar, Bing), AI platforms (ChatGPT, Perplexity, Google AI Mode), and major e-commerce marketplaces (Amazon, Walmart, eBay, Etsy, Best Buy, Target, Costco, AliExpress, Alibaba, Lazada, Flipkart, MercadoLibre, and many more). See the full list under our [Supported Targets](https://developers.oxylabs.io/api-targets).
 
 For our targets, you can pass either a full URL or parametrized inputs like a search query, product ID, or video ID, or set `"parse": true` to receive structured JSON instead of HTML.
 
