@@ -223,6 +223,8 @@ Oxylabs offers three scraping products, each suited to a different level of cont
 
 For Oxylabs' AI-tuned search retrieval product (different category – LLM-grade search results rather than scraping), check out [Fast Search API](https://oxylabs.io/products/scraper-api/fast-search).
 
+[![Oxylabs promo code](https://github.com/oxylabs/web-scraper-api/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?&utm_content=web_api_waitinglist&groupid=877)
+
 ## Common Use Cases
 
 Web Scraper API is the right choice when your goal is reliable, structured data from public websites at scale, without owning the scraping infrastructure. Common scenarios include:
