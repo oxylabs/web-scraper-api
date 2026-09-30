@@ -219,7 +219,7 @@ Oxylabs offers three scraping products, each suited to a different level of cont
 
 - [Web Scraper API](https://oxylabs.io/products/scraper-api/web) – you want ready-to-use data with a single API call. Best for e-commerce, SERP scraping, AI training data collection, and any workflow where you'd otherwise build your own proxy + uninterrupted access + parser stack.
 - [Web Unblocker](https://oxylabs.io/products/web-unblocker) – you have an existing scraping pipeline and need a drop-in proxy replacement that handles anti-bot challenges automatically. You keep control of parsing.
-- [Agent Browser](https://oxylabs.io/products/headless-browser) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
+- [Agent Browser](https://oxylabs.io/products/agent-browser) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
 
 For Oxylabs' AI-tuned search retrieval product (different category – LLM-grade search results rather than scraping), check out [Fast Search API](https://oxylabs.io/products/scraper-api/fast-search).
 
