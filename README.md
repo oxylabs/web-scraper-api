@@ -17,7 +17,7 @@
   - [Integration Methods](#integration-methods)
   - [Request Example](#request-example)
 - [Supported Targets](#supported-targets)
-- [Web Scraper API vs. Web Unblocker vs. Headless Browser](#web-scraper-api-vs-web-unblocker-vs-headless-browser)
+- [Web Scraper API vs. Web Unblocker vs. Agent Browser](#web-scraper-api-vs-web-unblocker-vs-agent-browser)
   - [When to Choose Each](#when-to-choose-each)
 - [Common Use Cases](#common-use-cases)
 - [Output Formats and Delivery](#output-formats-and-delivery)
@@ -42,7 +42,7 @@ Web Scraper API is designed around three core capabilities: reliable access requ
 
 ### All-in-One Web Data Collection
 
-Web Scraper API consolidates the entire scraping stack – proxy rotation, automated access management, CAPTCHA handling, JavaScript rendering, parsing, and delivery – behind a single API endpoint. There is no need to combine separate proxy providers, uninterrupted access layers, headless browser setups, and parsers. One request returns the data.
+Web Scraper API consolidates the entire scraping stack – proxy rotation, automated access management, CAPTCHA handling, JavaScript rendering, parsing, and delivery – behind a single API endpoint. There is no need to combine separate proxy providers, uninterrupted access layers, agent browser setups, and parsers. One request returns the data.
 
 The built-in proxy rotator uses Oxylabs' ethically sourced proxy network, and IP interruptions plus CAPTCHA challenges are handled automatically as part of the request lifecycle.
 
@@ -200,11 +200,11 @@ Categories with dedicated sources include:
 
 The full, up-to-date list of sources and their parametrized inputs is in the official [documentation](https://developers.oxylabs.io/products/web-scraper-api).
 
-## Web Scraper API vs. Web Unblocker vs. Headless Browser
+## Web Scraper API vs. Web Unblocker vs. Agent Browser
 
 Oxylabs offers three scraping products, each suited to a different level of control and complexity. Choose based on what you actually need from the response and how much of the scraping pipeline you want to own.
 
-| Feature | Web Scraper API | Web Unblocker | Headless Browser |
+| Feature | Web Scraper API | Web Unblocker | Agent Browser |
 | --- | --- | --- | --- |
 | **Main purpose** | All-in-one data collection: send a request, get structured results | Proxy-style access to raw web content with automatic access | Full remote browser automation for the toughest targets |
 | **Request input** | URL or query + source + optional parameters | URL via proxy connection (with optional headers) | Automation script (Puppeteer / Playwright / CDP) |
@@ -219,7 +219,7 @@ Oxylabs offers three scraping products, each suited to a different level of cont
 
 - [Web Scraper API](https://oxylabs.io/products/scraper-api/web) – you want ready-to-use data with a single API call. Best for e-commerce, SERP scraping, AI training data collection, and any workflow where you'd otherwise build your own proxy + uninterrupted access + parser stack.
 - [Web Unblocker](https://oxylabs.io/products/web-unblocker) – you have an existing scraping pipeline and need a drop-in proxy replacement that handles anti-bot challenges automatically. You keep control of parsing.
-- [Headless Browser](https://oxylabs.io/products/headless-browser) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
+- [Agent Browser](https://oxylabs.io/products/headless-browser) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
 
 For Oxylabs' AI-tuned search retrieval product (different category – LLM-grade search results rather than scraping), check out [Fast Search API](https://oxylabs.io/products/scraper-api/fast-search).
 
@@ -237,7 +237,7 @@ Web Scraper API is the right choice when your goal is reliable, structured data 
 6. **Entertainment market research** – social signals, ratings, and audience insights from platforms like TikTok, IMDb, or Netflix for content strategy and engagement analysis.
 7. **Generic web data extraction** – any public website via the `universal` source, with optional rendering and Custom Parser.
 
-If your task requires real browser interaction (multi-step clicks, form fills, login state across pages), Headless Browser is usually the better fit. If you just need a proxy layer that gives access to targets for an existing pipeline, use Web Unblocker.
+If your task requires real browser interaction (multi-step clicks, form fills, login state across pages), Agent Browser is usually the better fit. If you just need a proxy layer that gives access to targets for an existing pipeline, use Web Unblocker.
 
 ## Output Formats and Delivery
 
