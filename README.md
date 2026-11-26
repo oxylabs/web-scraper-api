@@ -1,5 +1,5 @@
 # Web Scraper API
-[![web-scraper-api](https://github.com/oxylabs/web-scraper-api/blob/main/Github-banner-Web%20Scraper%20API-1532x354.jpg)](https://oxylabs.io/products/scraper-api/web?utm_content=oxylabs-web-scraper-api&groupid=877)
+[![web-scraper-api](https://github.com/oxylabs/web-scraper-api/blob/main/Github-banner-Web%20Scraper%20API-1532x354.jpg)](https://oxylabs.io/products/scraper-api/web?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -31,7 +31,7 @@
 - [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
-Welcome to the official repository overview for Oxylabs' [Web Scraper API](https://oxylabs.io/products/scraper-api/webs). This guide is a developer-focused, technical reference covering what Web Scraper API is, how it works, its key features, supported targets, and when it fits your web scraping pipeline. It also serves as the central hub linking to all Web Scraper API-related repositories, code examples, and integrations.
+Welcome to the official repository overview for Oxylabs' [Web Scraper API](https://oxylabs.io/products/scraper-api/webs?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877). This guide is a developer-focused, technical reference covering what Web Scraper API is, how it works, its key features, supported targets, and when it fits your web scraping pipeline. It also serves as the central hub linking to all Web Scraper API-related repositories, code examples, and integrations.
 
 ## What is Web Scraper API?
 
@@ -223,13 +223,13 @@ Oxylabs offers three scraping products, each suited to a different level of cont
 
 ### When to Choose Each
 
-- [Web Scraper API](https://oxylabs.io/products/scraper-api/web) – you want ready-to-use data with a single API call. Best for e-commerce, SERP scraping, AI training data collection, and any workflow where you'd otherwise build your own proxy + uninterrupted access + parser stack.
-- [Web Unblocker](https://oxylabs.io/products/web-unblocker) – you have an existing scraping pipeline and need a drop-in proxy replacement that handles anti-bot challenges automatically. You keep control of parsing.
-- [Agent Browser](https://oxylabs.io/products/agent-browser) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
+- [Web Scraper API](https://oxylabs.io/products/scraper-api/web?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) – you want ready-to-use data with a single API call. Best for e-commerce, SERP scraping, AI training data collection, and any workflow where you'd otherwise build your own proxy + uninterrupted access + parser stack.
+- [Web Unblocker](https://oxylabs.io/products/web-unblocker?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) – you have an existing scraping pipeline and need a drop-in proxy replacement that handles anti-bot challenges automatically. You keep control of parsing.
+- [Agent Browser](https://oxylabs.io/products/agent-browser?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) – you need full browser control for JavaScript-heavy SPAs, multi-step interactions, login flows, AI-driven web automation, or workflows that require visual rendering and stateful sessions.
 
-For Oxylabs' AI-tuned search retrieval product (different category – LLM-grade search results rather than scraping), check out [Fast Search API](https://oxylabs.io/products/scraper-api/fast-search).
+For Oxylabs' AI-tuned search retrieval product (different category – LLM-grade search results rather than scraping), check out [Fast Search API](https://oxylabs.io/products/scraper-api/fast-search?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877).
 
-[![Oxylabs promo code](https://github.com/oxylabs/web-scraper-api/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877)
+[![Oxylabs promo code](https://github.com/oxylabs/web-scraper-api/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&utm_campaign=banner&groupid=877)
 
 ## Common Use Cases
 
@@ -278,7 +278,7 @@ Some additional product limits worth knowing:
 
 For detailed configuration, advanced usage, and code examples in multiple languages, check the official documentation:
 
-- [Get started with Web Scraper API](https://oxylabs.io/products/scraper-api/web)
+- [Get started with Web Scraper API](https://oxylabs.io/products/scraper-api/web?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877)
 - [Web Scraper API documentation](https://developers.oxylabs.io/products/web-scraper-api)
 - [Integration methods](https://developers.oxylabs.io/products/web-scraper-api/integration-methods)
 
