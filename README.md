@@ -3,7 +3,7 @@
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
-  <a href="https://developers.oxylabs.io/products/web-api"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
+  <a href="https://developers.oxylabs.io/products/web-api?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%93%8A_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
   <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
   <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
@@ -56,7 +56,7 @@ The built-in proxy rotator uses Oxylabs' ethically sourced proxy network, and IP
 
 In addition to a `universal` source that works with any public website, Web Scraper API ships with dedicated sources tuned for popular targets. These return ready-to-use structured JSON without you having to write or maintain parsing logic.
 
-Dedicated sources include search engines (Google Search, Google Ads, Google Trends, Google Lens, Google Scholar, Bing), AI platforms (ChatGPT, Perplexity, Google AI Mode), and major e-commerce marketplaces (Amazon, Walmart, eBay, Etsy, Best Buy, Target, Costco, AliExpress, Alibaba, Lazada, Flipkart, MercadoLibre, and many more). See the full list under our [Supported Targets](https://developers.oxylabs.io/api-targets).
+Dedicated sources include search engines (Google Search, Google Ads, Google Trends, Google Lens, Google Scholar, Bing), AI platforms (ChatGPT, Perplexity, Google AI Mode), and major e-commerce marketplaces (Amazon, Walmart, eBay, Etsy, Best Buy, Target, Costco, AliExpress, Alibaba, Lazada, Flipkart, MercadoLibre, and many more). See the full list under our [Supported Targets](https://developers.oxylabs.io/api-targets?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877).
 
 For our targets, you can pass either a full URL or parametrized inputs like a search query, product ID, or video ID, or set `"parse": true` to receive structured JSON instead of HTML.
 
@@ -64,7 +64,7 @@ For our targets, you can pass either a full URL or parametrized inputs like a se
 
 For dynamic, JavaScript-heavy pages, Web Scraper API supports JavaScript rendering through its Custom Browser feature. Set the `render` parameter to `html` to retrieve the rendered HTML, or to `png` to receive a Base64-encoded screenshot.
 
-When pages require user-like interaction – clicks, form input, scrolling, or waiting for elements to load – you can pass a list of [browser instructions](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions) in the `browser_instructions` parameter. 
+When pages require user-like interaction – clicks, form input, scrolling, or waiting for elements to load – you can pass a list of [browser instructions](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877#browser-instructions) in the `browser_instructions` parameter. 
 Example: input `"pizza boxes"` into an eBay search field, click the submit button, then wait for results.
 
 ```json
@@ -86,8 +86,8 @@ Browser instructions can be generated and tested without manual coding through t
 
 The `geo_location` parameter lets you choose the proxy server location, returning data as if you were browsing from that country, state, or city. Its exact behavior differs by source category:
 
-- For [SERP sources](https://developers.oxylabs.io/products/web-scraper-api/features/localization/serp-localization), `geo_location` adjusts the search results page to reflect what users in that location would see.
-- For [E-commerce sources](https://developers.oxylabs.io/products/web-scraper-api/features/localization/e-commerce-localization), specific values are required by certain marketplaces – check the per-target documentation.
+- For [SERP sources](https://developers.oxylabs.io/products/web-scraper-api/features/localization/serp-localization?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877), `geo_location` adjusts the search results page to reflect what users in that location would see.
+- For [E-commerce sources](https://developers.oxylabs.io/products/web-scraper-api/features/localization/e-commerce-localization?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877), specific values are required by certain marketplaces – check the per-target documentation.
 
 Additional `domain`, `locale`, and `results_language` parameters customize the top-level domain, interface language, and result language for region-specific extraction.
 
@@ -95,7 +95,7 @@ Additional `domain`, `locale`, and `results_language` parameters customize the t
 
 Custom Parser is a free feature that lets you define your own parsing logic on top of a raw scraping result, returning only the fields you care about in a structured format. It is configurable through the API or the dashboard, and Parser Presets let you save, manage, and reuse parsing configurations across jobs.
 
-See the [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser) and [Parser Presets](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser/parser-presets) documentation for details.
+See the [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) and [Parser Presets](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser/parser-presets?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) documentation for details.
 
 ### Scheduler
 
@@ -118,11 +118,11 @@ Example payload running every hour until a specified end date:
 }
 ```
 
-`POST` to `https://data.oxylabs.io/v1/schedules`. See the [Scheduler](https://developers.oxylabs.io/products/web-scraper-api/features/scheduler) documentation for the full parameter list.
+`POST` to `https://data.oxylabs.io/v1/schedules`. See the [Scheduler](https://developers.oxylabs.io/products/web-scraper-api/features/scheduler?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) documentation for the full parameter list.
 
 ### OxyCopilot
 
-[OxyCopilot](https://developers.oxylabs.io/products/web-scraper-api/web-scraper-api-playground/oxycopilot) is an AI-powered assistant inside the Scraper API Playground that generates scraping requests and parsing instructions from plain-English prompts. Describe the page you want to scrape and the fields you need, and OxyCopilot produces a ready-to-use API request along with a parsing template, including for nested or listed data. It is intended to reduce setup time for new targets and adapt quickly to layout changes.
+[OxyCopilot](https://developers.oxylabs.io/products/web-scraper-api/web-scraper-api-playground/oxycopilot?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) is an AI-powered assistant inside the Scraper API Playground that generates scraping requests and parsing instructions from plain-English prompts. Describe the page you want to scrape and the fields you need, and OxyCopilot produces a ready-to-use API request along with a parsing template, including for nested or listed data. It is intended to reduce setup time for new targets and adapt quickly to layout changes.
 
 ## How Does Web Scraper API Work?
 
@@ -134,11 +134,11 @@ Web Scraper API offers three integration methods, chosen per request:
 
 | Method | Type | Endpoint | When to use it |
 | --- | --- | --- | --- |
-| [Realtime](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/realtime) | Synchronous | `https://realtime.oxylabs.io/v1/queries` | One-off requests where you want results in the same connection. |
-| [Push-Pull](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull) | Asynchronous | `https://data.oxylabs.io/v1/queries` | Large workloads. Recommended for high volumes. Results remain available for at least 24 hours. |
-| [Proxy Endpoint](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/proxy-endpoint) | Synchronous | `https://realtime.oxylabs.io:60000` | URL-based scraping when you want to use Web Scraper API as a regular HTTPS proxy. Only accepts a limited set of additional parameters. |
+| [Realtime](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/realtime?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) | Synchronous | `https://realtime.oxylabs.io/v1/queries` | One-off requests where you want results in the same connection. |
+| [Push-Pull](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) | Asynchronous | `https://data.oxylabs.io/v1/queries` | Large workloads. Recommended for high volumes. Results remain available for at least 24 hours. |
+| [Proxy Endpoint](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/proxy-endpoint?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) | Synchronous | `https://realtime.oxylabs.io:60000` | URL-based scraping when you want to use Web Scraper API as a regular HTTPS proxy. Only accepts a limited set of additional parameters. |
 
-Push-Pull supports [batch requests](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull) – up to 5,000 `query` or `url` values in one POST to `https://data.oxylabs.io/v1/queries/batch`. Each entry is treated as a separate job and can be returned via callback or written directly to AWS S3 or Google Cloud Storage. Realtime and Proxy Endpoint do not support batch.
+Push-Pull supports [batch requests](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) – up to 5,000 `query` or `url` values in one POST to `https://data.oxylabs.io/v1/queries/batch`. Each entry is treated as a separate job and can be returned via callback or written directly to AWS S3 or Google Cloud Storage. Realtime and Proxy Endpoint do not support batch.
 
 Authentication for all methods is HTTP Basic Auth with your dashboard `USERNAME` and `PASSWORD`.
 
@@ -204,7 +204,7 @@ Categories with dedicated sources include:
 - **Travel and real estate:** Airbnb, Zillow.
 - **Anything else:** the `universal` source, for any public URL.
 
-The full, up-to-date list of sources and their parametrized inputs is in the official [documentation](https://developers.oxylabs.io/products/web-scraper-api).
+The full, up-to-date list of sources and their parametrized inputs is in the official [documentation](https://developers.oxylabs.io/products/web-scraper-api?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877).
 
 ## Web Scraper API vs. Web Unblocker vs. Agent Browser
 
@@ -250,10 +250,10 @@ If your task requires real browser interaction (multi-step clicks, form fills, l
 Web Scraper API can return:
 
 - **Raw HTML** – the default when `parse` is not set.
-- **Structured JSON** – when `"parse": true` is used with a [dedicated parser](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/dedicated-parsers) or with [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser).
+- **Structured JSON** – when `"parse": true` is used with a [dedicated parser](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/dedicated-parsers?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) or with [Custom Parser](https://developers.oxylabs.io/products/web-scraper-api/features/custom-parser?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877).
 - **Rendered HTML** – set `"render": "html"` for JavaScript-rendered pages.
-- **Screenshots** – set `"render": "png"` to receive a Base64-encoded screenshot. For image downloading workflows, see the [Download Images](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/download-images) documentation.
-- **Markdown** – set `"markdown": true` in your request payload. By default, this parameter is set to `false`. See the [Markdown Output](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/markdown-output) documentation for more details.
+- **Screenshots** – set `"render": "png"` to receive a Base64-encoded screenshot. For image downloading workflows, see the [Download Images](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/download-images?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) documentation.
+- **Markdown** – set `"markdown": true` in your request payload. By default, this parameter is set to `false`. See the [Markdown Output](https://developers.oxylabs.io/products/web-scraper-api/features/result-processing-and-storage/output-types/markdown-output?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) documentation for more details.
 
 Results can be delivered:
 
@@ -265,9 +265,9 @@ Push-Pull job results are available for at least 24 hours after completion.
 
 ## Rate Limits and Batch Requests
 
-Job-submission rate limits depend on your subscription plan. We have multiple regular and enterprise plans available, starting from Free trial, Micro, Starter, Advanced, to Venture, Business, Corporate, and even Custom+ plans for you to choose based on your necessity. See the [Rate Limits](https://developers.oxylabs.io/products/web-scraper-api/usage-and-billing/rate-limits) documentation for current values.
+Job-submission rate limits depend on your subscription plan. We have multiple regular and enterprise plans available, starting from Free trial, Micro, Starter, Advanced, to Venture, Business, Corporate, and even Custom+ plans for you to choose based on your necessity. See the [Rate Limits](https://developers.oxylabs.io/products/web-scraper-api/usage-and-billing/rate-limits?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) documentation for current values.
 
-For high-volume workloads, Push-Pull's [batch endpoint](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull) accepts up to 5,000 `query` or `url` values per request. All other parameters in a batch are singular and apply to every job in the batch.
+For high-volume workloads, Push-Pull's [batch endpoint](https://developers.oxylabs.io/products/web-scraper-api/integration-methods/push-pull?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877) accepts up to 5,000 `query` or `url` values per request. All other parameters in a batch are singular and apply to every job in the batch.
 
 Some additional product limits worth knowing:
 
@@ -279,8 +279,8 @@ Some additional product limits worth knowing:
 For detailed configuration, advanced usage, and code examples in multiple languages, check the official documentation:
 
 - [Get started with Web Scraper API](https://oxylabs.io/products/scraper-api/web?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877)
-- [Web Scraper API documentation](https://developers.oxylabs.io/products/web-scraper-api)
-- [Integration methods](https://developers.oxylabs.io/products/web-scraper-api/integration-methods)
+- [Web Scraper API documentation](https://developers.oxylabs.io/products/web-scraper-api?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877)
+- [Integration methods](https://developers.oxylabs.io/products/web-scraper-api/integration-methods?utm_source=github&utm_medium=referral&utm_content=web-scraper-api&groupid=877)
 
 ## Contact Us
 
